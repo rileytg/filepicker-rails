@@ -1,7 +1,7 @@
 module FilePicker
   module Capybara
     # FilePicker::Rails::TestHelp provides helpers to run feature tests
-    module TestHelper
+    module TestHelpers
 
       def self.included(base)
         base.class_eval do
